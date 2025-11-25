@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    
+
+
+    .navbar{
+        top: 1px;
+        position:sticky;
+        
+        display: flex;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        background-color: slategray;
+        gap: 30px;
+        
+
+
+        a{
+            text-decoration: none;
+            color: white;
+            text-transform: capitalize;
+            font-size: 25px;
+
+        }
+    }
+
+    img{
+        
+        position: absolute;
+        left: 40px;
+        top: 100px;
+        height: 500px;
+        width: 400px;
+        
+        border: 3px solid black;
+    }
+
+
+    .theory{
+        display: flex;
+
+        p{
+            
+            padding-right: 40px;
+            position: absolute;
+            left: 550px;
+            font-size: 20px;
+            bottom: 90px;
+            text-align: justify;
+            
+
+        }
+    }
+
+   @media only screen and (min-width:600px){
+    
+   }
+        
+    
+}
